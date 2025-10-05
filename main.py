@@ -7,7 +7,6 @@ import time
 import threading
 import string
 import random
-import fade
  
 # Color
 class bcolors:
@@ -33,8 +32,6 @@ print("""
 \033[33m╚═╝      ╚═══════╝╚══════╝     ╚═╝     ╚═╝╚═══════╝╚═══════╝╚═╝    ╚═╝
 \033[33m═══════════════════ BIRRUH  BIDDAM  NAFDHIKA YAA AQSHA ═════════════════════
 """)
-faded_text = fade.fire(logo)
-print(faded_text)
 if len(sys.argv) < 4:
     sys.exit("\033[96mUsage: python "+sys.argv[0]+" <ip> <port> <size>\033[0m")
 
